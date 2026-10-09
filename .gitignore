@@ -1,0 +1,18 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+.wrangler
+wrangler.toml
+node_modules
+.DS_Store
+test_endpoints.py
+debug_page.html
+
+shareids.txt
+junk_shares.txt
+valid_shares.txt

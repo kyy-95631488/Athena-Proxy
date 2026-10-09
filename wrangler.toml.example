@@ -1,0 +1,13 @@
+name = "tbx-proxy"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+
+[[d1_databases]]
+binding = "sharedfile"
+database_name = "sharedfile"
+database_id = "00000000-0000-0000-0000-000000000000"
+
+[observability]
+[observability.logs]
+enabled = true
+invocation_logs = true
